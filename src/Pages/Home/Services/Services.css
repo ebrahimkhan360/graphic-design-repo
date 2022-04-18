@@ -1,7 +1,8 @@
 .services-titel{
     text-align: center;
-    color: #7d592d;
+    color: #5900ff89;
     margin: 50px;
+    border-bottom:solid slateblue;
 }
 
 .services-contain{
@@ -16,6 +17,12 @@
 
 @media only screen and (max-width: 576px) {
     .services-contain{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .services-contain{
+        grid-template-columns: repeat(2, 1fr);
     }
 }

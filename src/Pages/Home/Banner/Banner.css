@@ -3,3 +3,17 @@
     height: 600px;
     box-shadow: 1px 1px 1px 1px;
 }
+
+@media only screen and (max-width: 576px) {
+    .banner-style img{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .banner-style img{
+        width: 100%;
+        height: 250px;
+    }
+}

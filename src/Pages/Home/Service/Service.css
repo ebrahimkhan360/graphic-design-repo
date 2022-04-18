@@ -4,13 +4,14 @@
     text-align: center;
     padding: 20px;
 }
+
+.cart-sizing:hover{
+    box-shadow: 1px 2px 5px;
+}
+
 .button-style{
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 25px;
-    
-    background-color: chocolate;
+    width: 120px;
+    background-color: #ff7a05;
     border-radius: 20px;
     cursor: pointer;
 }
