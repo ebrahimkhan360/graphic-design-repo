@@ -12,8 +12,8 @@ const Service = ({service}) => {
             <img className='card-img' src={img} alt=""/>
             <h2>{name} </h2>
             <p> {price}</p>
-            <p> <small/>{description}</p>
-            <button onClick={() => navigateToServiceDetail(id)} className='button-style'>Order Now</button>
+            <p>{description}</p>
+            <button onClick ={() => navigateToServiceDetail(id)} className='button-style'>Order Now</button>
         </div>
     );
 };
