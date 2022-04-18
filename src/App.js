@@ -12,6 +12,7 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
             <Checkout></Checkout>
           </RequireAuth>
         }></Route>
-        {/* <Route path='*' element={<NotFound></NotFound>}></Route> */}
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
       <Footer></Footer>
